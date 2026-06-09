@@ -1,0 +1,95 @@
+{
+  "activities": [
+    {
+      "id": "quad-biking",
+      "title": "Palmeraie Quad Biking",
+      "price": "From €30",
+      "badge": "Bestseller",
+      "location": "Les Palmeraies",
+      "duration": "2 hrs",
+      "image": "/assets/images/activities/quad1.jpeg",
+      "description": "Race through Marrakech's lush palm oasis on an exhilarating quad, weaving past Berber villages, mud-brick farmsteads, and open desert trails on a two-hour guided adventure.",
+      "whatsapp": "https://wa.me/+212666698732?text=Hello%2C%20I%20want%20to%20book%20Palmeraie%20Quad%20Biking"
+    },
+    {
+      "id": "camel-ride",
+      "title": "Camel Ride in the Palmeraie",
+      "price": "From €20",
+      "badge": "",
+      "location": "Palmeraie",
+      "duration": "1 hr",
+      "image": "/assets/images/activities/camel.jpeg",
+      "description": "Sway gently through Marrakech's historic palm oasis on the back of a camel — a timeless, meditative experience that connects you with Morocco's nomadic Berber traditions.",
+      "whatsapp": "https://wa.me/+212666698732?text=Hello%2C%20I%20want%20to%20book%20a%20Camel%20Ride"
+    },
+    {
+      "id": "hot-air-balloon",
+      "title": "Hot Air Balloon at Sunrise",
+      "price": "From €190",
+      "badge": "Premium",
+      "location": "Marrakech",
+      "duration": "3 hrs",
+      "image": "/assets/images/activities/ballon1.jpeg",
+      "description": "Drift silently above rose-gold Moroccan landscapes as the sun rises over the Atlas Mountains — a magical, once-in-a-lifetime experience with panoramic views.",
+      "whatsapp": "https://wa.me/+212666698732?text=Hello%2C%20I%20want%20to%20book%20Hot%20Air%20Balloon"
+    }
+  ],
+  "tours": [
+    {
+      "id": "ouzoud-waterfalls",
+      "title": "Ouzoud Waterfalls Day Trip",
+      "price": "From €35",
+      "badge": "Day Trip",
+      "duration": "10 hrs",
+      "image": "/assets/images/itinerary/oroud.png",
+      "description": "Marvel at Morocco's most spectacular waterfalls — three cascades dropping 110 metres into an emerald gorge, with wild Barbary macaques as your companions.",
+      "whatsapp": "https://wa.me/+212666698732?text=Hello%2C%20I%20want%20to%20book%20Ouzoud%20Waterfalls%20Day%20Trip"
+    },
+    {
+      "id": "ourika-valley",
+      "title": "Ourika Valley & Atlas Mountains",
+      "price": "From €30",
+      "badge": "Day Trip",
+      "duration": "8 hrs",
+      "image": "/assets/images/itinerary/ourika.png",
+      "description": "Journey into the lush Ourika Valley — just an hour from Marrakech — where terraced Berber villages cling to dramatic mountain slopes above a rushing river.",
+      "whatsapp": "https://wa.me/+212666698732?text=Hello%2C%20I%20want%20to%20book%20Ourika%20Valley%20Trip"
+    },
+    {
+      "id": "essaouira-day-trip",
+      "title": "Essaouira Coastal Day Trip",
+      "price": "From €40",
+      "badge": "Day Trip",
+      "duration": "12 hrs",
+      "image": "/assets/images/itinerary/essaouira.png",
+      "description": "Trade the medina's heat for the Atlantic breeze in Essaouira — Morocco's wind-swept jewel. Explore UNESCO-listed ramparts, blue fishing boats, and vibrant souks.",
+      "whatsapp": "https://wa.me/+212666698732?text=Hello%2C%20I%20want%20to%20book%20Essaouira%20Day%20Trip"
+    }
+  ],
+  "transport": [
+    {
+      "id": "airport-transfer",
+      "title": "Airport Transfers",
+      "price": "From €15",
+      "image": "/assets/images/itinerary/Aeroport-Marrakech.webp",
+      "description": "Stress-free door-to-door transfers between Marrakech Menara Airport and your hotel or riad. We monitor your flight for delays and always greet you on time.",
+      "whatsapp": "https://wa.me/+212666698732?text=Hello%2C%20I%20need%20an%20Airport%20Transfer"
+    },
+    {
+      "id": "private-driver",
+      "title": "Private Car with Driver",
+      "price": "From €80/day",
+      "image": "/assets/images/itinerary/car_fleet.webp",
+      "description": "Explore Morocco entirely at your own pace. Your professional, English-speaking driver navigates the roads while you focus on the scenery.",
+      "whatsapp": "https://wa.me/+212666698732?text=Hello%2C%20I%20want%20to%20book%20a%20Private%20Car%20with%20Driver"
+    },
+    {
+      "id": "city-to-city",
+      "title": "City-to-City Transfers",
+      "price": "From €60",
+      "image": "/assets/images/itinerary/city-to-city.webp",
+      "description": "Comfortable, direct road transfers between Marrakech, Fes, Casablanca, Agadir, and beyond. We turn long drives into part of your Moroccan adventure.",
+      "whatsapp": "https://wa.me/+212666698732?text=Hello%2C%20I%20need%20a%20City-to-City%20Transfer"
+    }
+  ]
+}
