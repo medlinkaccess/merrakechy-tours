@@ -1,6 +1,7 @@
-import Layout from '../components/Layout';
+﻿import Layout from '../components/Layout';
 import path from 'path';
 import fs from 'fs';
+import Link from 'next/link';
 
 export async function getStaticProps() {
   const data = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'services.json'), 'utf-8'));
@@ -47,9 +48,14 @@ export default function Services({ activities, tours, transport }) {
                   </div>
                   <h3>{item.title}</h3>
                   <p>{item.description}</p>
-                  <a href={item.whatsapp} target="_blank" rel="noopener" className="btn btn-outline-gold">
-                    <i className="fab fa-whatsapp"></i> Book Now
-                  </a>
+                  <div style={{display:'flex', gap:'0.5rem', flexWrap:'wrap', marginTop:'1rem'}}>
+                    <Link href={`/services/${item.id}`} className="btn btn-outline-gold">
+                      View Details
+                    </Link>
+                    <a href={item.whatsapp} target="_blank" rel="noopener" className="btn btn-outline-gold">
+                      <i className="fab fa-whatsapp"></i> Book Now
+                    </a>
+                  </div>
                 </div>
               </article>
             ))}
@@ -79,9 +85,14 @@ export default function Services({ activities, tours, transport }) {
                   </div>
                   <h3>{item.title}</h3>
                   <p>{item.description}</p>
-                  <a href={item.whatsapp} target="_blank" rel="noopener" className="btn btn-outline-gold">
-                    <i className="fab fa-whatsapp"></i> Book Now
-                  </a>
+                  <div style={{display:'flex', gap:'0.5rem', flexWrap:'wrap', marginTop:'1rem'}}>
+                    <Link href={`/services/${item.id}`} className="btn btn-outline-gold">
+                      View Details
+                    </Link>
+                    <a href={item.whatsapp} target="_blank" rel="noopener" className="btn btn-outline-gold">
+                      <i className="fab fa-whatsapp"></i> Book Now
+                    </a>
+                  </div>
                 </div>
               </article>
             ))}
@@ -109,9 +120,14 @@ export default function Services({ activities, tours, transport }) {
                   <h3>{item.title}</h3>
                   <span className="price-tag">{item.price}</span>
                   <p>{item.description}</p>
-                  <a href={item.whatsapp} target="_blank" rel="noopener" className="btn btn-outline-light">
-                    <i className="fab fa-whatsapp"></i> Book Now
-                  </a>
+                  <div style={{display:'flex', gap:'0.5rem', flexWrap:'wrap', marginTop:'1rem'}}>
+                    <Link href={`/services/${item.id}`} className="btn btn-outline-light">
+                      View Details
+                    </Link>
+                    <a href={item.whatsapp} target="_blank" rel="noopener" className="btn btn-outline-light">
+                      <i className="fab fa-whatsapp"></i> Book Now
+                    </a>
+                  </div>
                 </div>
               </div>
             ))}
