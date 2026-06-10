@@ -15,7 +15,6 @@ export async function getStaticProps({ params }) {
 }
 
 export default function BlogPost({ post }) {
-  const paragraphs = post.content.split('\n\n');
   return (
     <Layout title={`${post.title} | Merrakechy Tours`} description={post.excerpt}>
       <section style={{ background: 'var(--night)', paddingTop: 140, paddingBottom: 60, textAlign: 'center', borderBottom: '1px solid rgba(201,168,76,0.15)' }}>
@@ -33,7 +32,7 @@ export default function BlogPost({ post }) {
         <div className="container" style={{ maxWidth: 800 }}>
           <img src={post.image} alt={post.title} style={{ width: '100%', borderRadius: 12, marginBottom: '2rem', maxHeight: 450, objectFit: 'cover' }} />
           <div style={{ fontSize: '1.1rem', lineHeight: 1.9, fontFamily: 'Georgia, serif' }}>
-            {paragraphs.map((para, i) => {
+            {post.content.map((para, i) => {
               if (para.startsWith('## ')) {
                 return <h2 key={i} style={{ fontSize: '1.5rem', margin: '2rem 0 0.5rem', color: 'var(--night)' }}>{para.replace('## ', '')}</h2>;
               }
@@ -41,7 +40,7 @@ export default function BlogPost({ post }) {
             })}
           </div>
           <div style={{ marginTop: '3rem', paddingTop: '2rem', borderTop: '1px solid rgba(0,0,0,0.1)', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-            <Link href="/blog" className="btn btn-outline-gold">← Back to Blog</Link>
+            <Link href="/blog" className="btn btn-outline-gold">Back to Blog</Link>
             <a href="https://wa.me/+212666698732" target="_blank" rel="noopener" className="btn btn-outline-gold">
               <i className="fab fa-whatsapp"></i> Book a Tour
             </a>

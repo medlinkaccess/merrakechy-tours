@@ -8,7 +8,29 @@
     "category": "Travel Tips",
     "excerpt": "From the buzzing Djemaa el-Fna square to the serene Majorelle Garden, discover the top 10 experiences every visitor must have in Marrakech.",
     "image": "/assets/images/activities/quad1.jpeg",
-    "content": "Marrakech is one of the most vibrant cities in the world. Whether you are visiting for the first time or returning for more, the city never stops surprising you.\n\n## 1. Explore Djemaa el-Fna\nThe heart of Marrakech, this UNESCO-listed square comes alive at sunset with food stalls, musicians, and storytellers.\n\n## 2. Visit the Majorelle Garden\nA stunning blue garden created by French painter Jacques Majorelle and later restored by Yves Saint Laurent.\n\n## 3. Get Lost in the Medina\nThe ancient walled city is a maze of souks, riads, and hidden courtyards waiting to be discovered.\n\n## 4. Take a Quad Bike Tour\nRace through the Palmeraie on a guided quad bike adventure — one of the most thrilling activities near Marrakech.\n\n## 5. Ride a Camel in the Palmeraie\nA timeless experience that connects you with Morocco's nomadic Berber traditions.\n\n## 6. Hot Air Balloon at Sunrise\nDrift above the Atlas Mountains as the sun rises over the rose-gold Moroccan landscape.\n\n## 7. Day Trip to Ouzoud Waterfalls\nMarvel at Morocco's most spectacular waterfalls, 150km from Marrakech.\n\n## 8. Visit the Bahia Palace\nA masterpiece of Moroccan architecture with stunning tilework and carved cedar ceilings.\n\n## 9. Explore the Saadian Tombs\nA hidden gem rediscovered in 1917, these royal tombs date back to the 16th century.\n\n## 10. Shop in the Souks\nFrom spices to leather goods, the souks of Marrakech offer an unforgettable shopping experience."
+    "content": [
+      "Marrakech is one of the most vibrant cities in the world. Whether you are visiting for the first time or returning for more, the city never stops surprising you.",
+      "## 1. Explore Djemaa el-Fna",
+      "The heart of Marrakech, this UNESCO-listed square comes alive at sunset with food stalls, musicians, and storytellers.",
+      "## 2. Visit the Majorelle Garden",
+      "A stunning blue garden created by French painter Jacques Majorelle and later restored by Yves Saint Laurent.",
+      "## 3. Get Lost in the Medina",
+      "The ancient walled city is a maze of souks, riads, and hidden courtyards waiting to be discovered.",
+      "## 4. Take a Quad Bike Tour",
+      "Race through the Palmeraie on a guided quad bike adventure — one of the most thrilling activities near Marrakech.",
+      "## 5. Ride a Camel in the Palmeraie",
+      "A timeless experience that connects you with Morocco's nomadic Berber traditions.",
+      "## 6. Hot Air Balloon at Sunrise",
+      "Drift above the Atlas Mountains as the sun rises over the rose-gold Moroccan landscape.",
+      "## 7. Day Trip to Ouzoud Waterfalls",
+      "Marvel at Morocco's most spectacular waterfalls, 150km from Marrakech.",
+      "## 8. Visit the Bahia Palace",
+      "A masterpiece of Moroccan architecture with stunning tilework and carved cedar ceilings.",
+      "## 9. Explore the Saadian Tombs",
+      "A hidden gem rediscovered in 1917, these royal tombs date back to the 16th century.",
+      "## 10. Shop in the Souks",
+      "From spices to leather goods, the souks of Marrakech offer an unforgettable shopping experience."
+    ]
   },
   {
     "id": "marrakech-to-sahara-desert",
@@ -19,6 +41,18 @@
     "category": "Tours",
     "excerpt": "Planning a Sahara desert trip from Marrakech? Here is everything you need to know about routes, costs, and what to expect.",
     "image": "/assets/images/itinerary/oroud.png",
-    "content": "The Sahara Desert is one of the most iconic destinations in Morocco. A trip from Marrakech to the Sahara is a journey through dramatic landscapes, ancient kasbahs, and Berber villages.\n\n## Getting There\nThe most popular route takes you through the High Atlas Mountains via the Tichka Pass, then through Ouarzazate — the gateway to the Sahara.\n\n## How Long Does It Take?\nThe drive from Marrakech to Merzouga (the main Sahara dunes) takes approximately 8-10 hours. Most tours are 2-3 days to make the most of the journey.\n\n## What to Expect\nExpect stunning scenery, camel rides at sunset, sleeping under the stars in a Berber camp, and sand dunes stretching as far as the eye can see.\n\n## Best Time to Visit\nOctober to April is the best time to visit the Sahara from Marrakech. Summer temperatures can exceed 45°C.\n\n## Book Your Trip\nContact Merrakechy Tours for private and group Sahara tours departing from Marrakech."
+    "content": [
+      "The Sahara Desert is one of the most iconic destinations in Morocco. A trip from Marrakech to the Sahara is a journey through dramatic landscapes, ancient kasbahs, and Berber villages.",
+      "## Getting There",
+      "The most popular route takes you through the High Atlas Mountains via the Tichka Pass, then through Ouarzazate — the gateway to the Sahara.",
+      "## How Long Does It Take?",
+      "The drive from Marrakech to Merzouga takes approximately 8-10 hours. Most tours are 2-3 days to make the most of the journey.",
+      "## What to Expect",
+      "Expect stunning scenery, camel rides at sunset, sleeping under the stars in a Berber camp, and sand dunes stretching as far as the eye can see.",
+      "## Best Time to Visit",
+      "October to April is the best time to visit the Sahara from Marrakech. Summer temperatures can exceed 45 degrees.",
+      "## Book Your Trip",
+      "Contact Merrakechy Tours for private and group Sahara tours departing from Marrakech."
+    ]
   }
 ]
