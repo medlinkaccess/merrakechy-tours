@@ -19,7 +19,7 @@ export default function Layout({ children, title, description }) {
             <Link href="/services#activities">Activities</Link>
             <Link href="/services#tours">Tours</Link>
             <Link href="/services#transport">Transport</Link>
-            <Link href="/contact">Contact</Link>
+            <Link href="/blog">Blog</Link><Link href="/contact">Contact</Link>
             <a href="https://wa.me/+212666698732" target="_blank" rel="noopener" className="nav-cta">Book Now</a>
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function Layout({ children, title, description }) {
                 <li><Link href="/services#activities">Activities</Link></li>
                 <li><Link href="/services#tours">Tours</Link></li>
                 <li><Link href="/services#transport">Transport</Link></li>
-                <li><Link href="/contact">Contact</Link></li>
+                <li><Link href="/blog">Blog</Link><Link href="/contact">Contact</Link></li>
               </ul>
             </div>
             <div className="footer-col">
