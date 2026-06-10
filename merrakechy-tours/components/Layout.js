@@ -1,4 +1,4 @@
-import Head from 'next/head';
+﻿import Head from 'next/head';
 import Link from 'next/link';
 
 export default function Layout({ children, title, description }) {
@@ -34,8 +34,8 @@ export default function Layout({ children, title, description }) {
               <span className="footer-logo">MERRAKECHY TOURS</span>
               <p>We provide authentic travel experiences across Morocco — from the Sahara dunes to the Atlantic coast — with expert local guides, modern vehicles, and genuine Moroccan hospitality.</p>
               <div className="footer-social">
-                <a href="#" className="social-link" aria-label="Facebook"><i className="fab fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/merrakechytours/" className="social-link" target="_blank" rel="noopener" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/share/1D2AkEf2zK/" className="social-link" target="_blank" rel="noopener" aria-label="Facebook"><i className="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/merrakechytours?utm_source=qr&igsh=eWtkNnRnNGV4MThr" className="social-link" target="_blank" rel="noopener" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
                 <a href="#" className="social-link" aria-label="TripAdvisor"><i className="fab fa-tripadvisor"></i></a>
                 <a href="https://wa.me/+212666698732" className="social-link" target="_blank" rel="noopener" aria-label="WhatsApp"><i className="fab fa-whatsapp"></i></a>
               </div>
@@ -56,7 +56,7 @@ export default function Layout({ children, title, description }) {
                 <li><a href="tel:+212666698732">+212 666 698 732</a></li>
                 <li><a href="mailto:contact@merrakechytours.com">contact@merrakechytours.com</a></li>
                 <li><span style={{color:'rgba(255,255,255,0.5)'}}>Bab Al Khmis, Marrakech</span></li>
-                <li><span style={{color:'rgba(255,255,255,0.5)'}}>Open daily 08:00 – 20:00</span></li>
+                <li><span style={{color:'rgba(255,255,255,0.5)'}}>Open daily 08:00 - 20:00</span></li>
               </ul>
             </div>
           </div>
