@@ -1,3 +1,4 @@
+import ChatBot from '../components/ChatBot';
 import Layout from '../components/Layout';
 import Link from 'next/link';
 import path from 'path';
@@ -182,7 +183,9 @@ export default function Home({ activities, tours, transport }) {
             <i className="fab fa-whatsapp"></i> Chat on WhatsApp
           </a>
         </div>
-      </section>
+            </section>
+
+      <ChatBot />
     </Layout>
   );
 }
